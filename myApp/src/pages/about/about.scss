@@ -1,0 +1,41 @@
+page-about {
+  ion-navbar {
+    height: 30px;
+  }
+
+  .card-background-page {
+
+    ion-card {
+      position: relative;
+      text-align: center;
+    }
+
+    .card-title {
+      position: absolute;
+      top: 36%;
+      font-size: 2.0em;
+      width: 100%;
+      font-weight: bold;
+      color: #f8d747;
+    }
+
+    .card-subtitle {
+      font-size: 1.2em;
+      position: absolute;
+      top: 52%;
+      width: 100%;
+      color: #ffffff;
+    }
+
+  }
+    ion-title {
+
+      .toolbar-title {
+        justify-content: center;
+        display: flex;
+        font-size: 45px;
+        color: #f8d747;
+      }
+
+    }
+}

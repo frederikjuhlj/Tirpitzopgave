@@ -1,0 +1,35 @@
+<ion-header>
+    <ion-title>
+      Nyhedsbrev
+    </ion-title>
+  <img src="assets/imgs/skjult.png" alt="">
+  <img src="assets/imgs/tirpitz.png" alt="">
+</ion-header>
+
+<ion-content>
+  <ion-fab top right edge>
+    <button ion-fab mini><ion-icon name="add"></ion-icon></button>
+    <ion-fab-list>
+      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-instagram"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+  <ion-list>
+
+    <ion-item>
+      <ion-input type="text" placeholder="Navn"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="password" placeholder="E-mail"></ion-input>
+    </ion-item>
+
+    <p>
+      <button ion-button color="primary" full>TILMELD NYHEDSBREV</button>
+    </p>
+
+  </ion-list>
+
+  <div #map id="map"></div>
+
+</ion-content>
